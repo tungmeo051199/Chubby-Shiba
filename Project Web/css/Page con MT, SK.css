@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.nenMT
+{
+	background: url("../images/BG MT_1.png");
+	background-size: cover;
+}
+
+.nenSK
+{
+	background: url("../images/BG SK.png");
+	background-size: cover;
+}
+
+.container
+{
+	width: 100%;
+	height: 750px;
+}
+
+.header
+{
+	width: 100%;
+	height: 90px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	position: fixed;
+}
+
+.logo
+{
+	width: 15%;
+	height: 60px;
+	float: left;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu
+{
+	width: 85%;
+	height: 60px;
+	float: right;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li
+{
+	list-style: none;
+	float: left;
+	padding: 20px;
+	margin: 48px;
+	
+	font-family: 'iCiel LiebeErika';
+	font-weight: bolder;
+	
+}
+
+ul li a
+{
+	text-decoration: none;
+	color:#FAAF5F;
+	font-size: 30px;
+}
+
+ul li a:hover
+{
+	text-decoration: none;
+	color: #2C765A;
+	font-size: 30px;	 
+}
+
+ul li:hover
+{
+	font-size: 40px;
+	 
+	
+}
+
+.bigcontent 
+{
+	width: 100%;
+	height: 65%;
+}
+
+.bigcontent01
+{
+	width: 100%;
+	height: 65%;
+}
+
+.content01 
+{
+	width: 40%;
+	height: 92%;
+	float: left;
+	padding: 5%;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.content02
+{
+	width: 40%;
+	height: 92%;
+	float: right;
+	text-align: left;
+	padding: 5%;
+	margin-top: 100px;
+	line-height: 30px;
+	letter-spacing: 0.5px;
+}
+
+.content03
+{
+	width: 40%;
+	height: 92%;
+	float: left;
+	text-align: left;
+	padding: 5%;
+	margin-top: 100px;
+	line-height: 30px;
+	letter-spacing: 0.5px;
+
+}
+
+.content04
+{
+	width: 40%;
+	height: 92%;
+	float: right;
+	padding: 5%;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.TNH
+{
+	font-family: 'iCiel LiebeErika'; 
+	font-size: 75px; 
+	font-weight: bolder;
+	color:#FAAF5F;
+}
+
+.NHTC
+{
+	font-family: 'iCiel LiebeErika'; 
+	font-size: 40px; 
+	font-weight: bolder;
+	color:#F4847F;
+}
+
+.Word
+{
+	font-family: 'iCiel Panton Light';
+	font-size: 20px; 
+	line-height: 30px;
+	text-align: justify;
+}
